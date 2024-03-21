@@ -1,0 +1,203 @@
+/* Modelo de CV em HTML e CSS elaborado por 
+Laís Aranda de Souza   | RA 1656007 
+Mateus Teixeira Maciel | RA 1650601
+Para a matéria de DESENVOLVIMENTO DE SOFTWARE PARA WEB, de terça-feira 
+no período noturno, do professor GERSON LOURENCO GAZOLA. 
+Sala: 191205A16 */
+
+body {
+  margin: 0;
+  font-family: 'Verdana',sans-serif;
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+a {
+  color: #1C9C94;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  color: #ffffff;
+  background-image: url("../img/bg.jpg");
+  background-color: #e6e2e2;
+  background-size: cover;
+  background-position: center;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0;
+  position: relative;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1140px;
+}
+
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.contact span {
+  color: #889499;
+  text-decoration: italic;
+}
+
+.contact, ul.phone {
+  list-style-type: none;
+}
+
+ul.phone li:before {
+  content: "☎";
+  padding-right: 0.5em;
+  color: #509e98;
+  text-transform: lowercase;
+}
+
+.contact, ul.email {
+  list-style-type: none;
+}
+
+ul.email li:before {
+  content: "✉";
+  padding-right: 0.5em;
+  color: #509e98;
+  text-transform: lowercase;
+}
+
+.contact, ul.address {
+  list-style-type: none;
+}
+
+ul.address li:before {
+  content: "🏠︎";
+  padding-right: 0.5em;
+  color: #509e98;
+  text-transform: capitalize;
+}
+
+.contact, ul.github {
+  list-style-type: none;
+}
+
+ul.github li:before {
+  content: "✐";
+  padding-right: 0.5em;
+  color: #509e98;
+  text-transform: capitalize;
+}
+
+.contact, ul.linkedin {
+  list-style-type: none;
+}
+
+ul.linkedin li:before {
+  content: "🕬";
+  padding-right: 0.5em;
+  color: #509e98;
+  text-transform: capitalize;
+}
+
+.voluntarywork, .skills {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.voluntarywork .title {
+  color: #509e98;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+}
+
+.voluntarywork .description {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.voluntarywork .description p {
+  padding-left: 1em;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.skills .column ul, ul.job-description {
+  list-style-type: none;
+}
+
+.skills .column ul > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+.education, .job-title {
+  text-transform: capitalize;
+}
+
+.education span, .job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
+
+.education-description {
+  padding-bottom: 1em;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+footer {
+ padding: 1em 1.5em;
+ background: #A7B8BF;
+ color: white;
+ text-align: right;
+}
