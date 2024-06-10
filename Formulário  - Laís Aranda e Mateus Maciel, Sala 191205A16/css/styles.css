@@ -1,0 +1,275 @@
+/* Importa a fonte "Poppins" do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Importa o módulo de CSS3 do Compass */
+@import "compass/css3";
+
+/* Estilos para o corpo da página */
+body {
+    font-family: "Poppins", sans-serif; 
+    font-weight: 400; 
+    font-style: normal; 
+    width: 100%; 
+    background-color: #b0e0e6; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url('https://www.transparenttextures.com/patterns/arches.png'); 
+    background-size: repeat; 
+    background-position: center;
+}
+
+/* Estilos para o contêiner do formulário */
+.form-container {
+    background-color: #fff;
+    width: 40%;
+    margin: auto;
+    padding: 50px 70px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+/* Estilos para os títulos */
+h2 {
+    text-align: center;
+    background-color: powderblue;
+    color: #474E68;
+    padding: 50px;
+    padding-left: 90px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Estilos para o ícone de laptop médico */
+.fas.fa-laptop-medical {
+    border-radius: 50%;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+}
+
+/* Estilos para os grupos de formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilos para os contêineres flexíveis */
+#rg-cns-container, #dob-phone-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para os divs dentro dos contêineres flexíveis */
+#rg-cns-container div, #dob-phone-container div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Remove a margem direita do último div */
+#rg-cns-container div:last-child, #dob-phone-container div:last-child {
+    margin-right: 0;
+}
+
+/* Estilos para os rótulos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para o grupo de radio buttons */
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #474E68;
+}
+
+/* Estilos para colunas dentro do grupo de radio buttons */
+.column {
+    flex-basis: calc(50% - 10px);
+}
+
+/* Estilos para os divs dentro das colunas */
+.column > div {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para os radio buttons */
+.column > div input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilos para os rótulos dos radio buttons */
+.column > div label {
+    margin-left: 0;
+    display: inline-flex;
+}
+
+/* Estilos para os campos de texto, data, telefone, email e select */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+/* Estilos para mensagens de erro */
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Estilos para telefone inválido */
+.invalid-phone {
+    border-color: red;
+}
+
+/* Estilos para a seção de redes sociais */
+.social-media {
+    max-width: 600px;
+    background-color: #fff;
+    margin: auto;
+    padding: 35px 0;
+    text-align: center;
+    color: #9fadca;
+}
+
+/* Define as margens superior e inferior para o elemento .social-icons */
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+/* Estiliza os links dentro do elemento .social-icons */
+.social-icons a{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #474E68;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+/* Define o estilo quando o cursor passa sobre os links dentro de .social-icons */
+.social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+/* Centraliza o texto dentro do elemento .button-container */
+.button-container{
+    text-align: center;
+}
+
+/* Estilos para o botão "Reset" */
+.button-reset{
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #7e7e7e;
+    border-radius: .375em;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: calc(.5em - 1px) 1em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+/* Define o estilo quando o cursor passa sobre o botão "Reset" */
+.button-reset:hover {
+    background-color: #b6b2b2;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+/* Define o estilo quando o botão "Reset" está ativo (clicado) */
+.button-reset:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+/* Estilos para o botão "Submit" */
+.button-submit {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #27ae60;
+    border-radius: .375em;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: calc(.5em - 1px) 1em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+/* Define o estilo quando o cursor passa sobre o botão "Submit" */
+.button-submit:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+/* Define o estilo quando o botão "Submit" está ativo (clicado) */
+.button-submit:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}

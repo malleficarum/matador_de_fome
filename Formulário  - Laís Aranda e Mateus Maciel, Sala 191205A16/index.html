@@ -1,0 +1,205 @@
+<!-- Modelo de formulário em HTML/CSS/JS elaborado por 
+Laís Aranda de Souza   | RA 1656007 
+Mateus Teixeira Maciel | RA 1650601
+Para a matéria de DESENVOLVIMENTO DE SOFTWARE PARA WEB, de terça-feira 
+no período noturno, do professor GERSON LOURENCO GAZOLA. 
+Sala: 191205A16 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Currículo básico criado em HTML e CSS">
+    <meta name="author" content="Laís Aranda e Mateus Teixeira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Paciente</title>
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <!-- Inclusão do jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Inclusão do plugin jQuery Mask -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <!-- Inclusão do FontAwesome para ícones -->
+    <script src="https://kit.fontawesome.com/0439df7bff.js" crossorigin="anonymous"></script>
+    <!-- Inclusão do script JS customizado -->
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <!-- Contêiner do formulário -->
+    <div class="form-container">
+        <!-- Título do formulário com ícone -->
+        <h2><span class="fas fa-laptop-medical"></span>Cadastro de Paciente</h2>              
+        <!-- Formulário de cadastro de paciente -->
+        <form action="recebe_dados.php" method="POST" id="patientForm">
+            <!-- Campo para o nome do paciente -->
+            <div class="form-group">
+                <label for="paciente">Paciente</label>
+                <input type="text" id="paciente" name="paciente" maxlength="50" placeholder="Digite o nome do paciente" required>
+            </div>
+            <!-- Campo para selecionar o sexo do paciente -->
+            <div class="form-group">
+                <label>Sexo</label>
+                <div class="radio-group">
+                    <div class="column">
+                        <div>
+                            <input type="radio" id="masculino" name="sexo" value="Masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="feminino" name="sexo" value="Feminino">
+                            <label for="feminino">Feminino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="nao_responder" name="sexo" value="Prefiro não responder">
+                            <label for="nao_responder">Prefiro não responder</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Campo para selecionar o gênero do paciente -->
+            <div class="form-group">
+                <label>Gênero</label>
+                <div class="radio-group">
+                    <div class="column">
+                        <div>
+                            <input type="radio" id="masculino_genero" name="genero" value="Masculino">
+                            <label for="masculino_genero">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="feminino_genero" name="genero" value="Feminino">
+                            <label for="feminino_genero">Feminino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="transgenero" name="genero" value="Transgênero">
+                            <label for="transgenero">Transgênero</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="genero_neutro" name="genero" value="Gênero Neutro">
+                            <label for="genero_neutro">Gênero Neutro</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="nao_binario" name="genero" value="Não-Binário">
+                            <label for="nao_binario">Não-Binário</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="agenero" name="genero" value="Agênero">
+                            <label for="agenero">Agênero</label>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div>
+                            <input type="radio" id="pangenero" name="genero" value="Pangênero">
+                            <label for="pangenero">Pangênero</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="genderqueer" name="genero" value="Genderqueer">
+                            <label for="genderqueer">Genderqueer</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="two_spirit" name="genero" value="Two-Spirit">
+                            <label for="two_spirit">Two-Spirit</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="terceiro_genero" name="genero" value="Terceiro Gênero">
+                            <label for="terceiro_genero">Terceiro Gênero</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="outros" name="genero" value="Outros">
+                            <label for="outros">Outros</label>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <!-- Campos para RG e CNS -->
+            <div id="rg-cns-container" class="form-group">
+                <div>
+                    <label for="rg">R.G.</label>
+                    <input type="text" id="rg" name="rg" pattern="\d{1,10}" maxlength="10" placeholder="Digite o R.G. do paciente" required>
+                </div>
+                <div>
+                    <label for="cns">CNS</label>
+                    <input type="text" id="cns" name="cns" pattern="\d{1,12}" maxlength="12" placeholder="Digite o Cartão SUS do paciente" required>
+                </div>
+            </div>            
+            <!-- Campos para Data de Nascimento e Telefone -->
+            <div id="dob-phone-container" class="form-group">
+                <div>
+                    <label for="data_nascimento">Data de Nascimento</label>
+                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                </div>
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="+55 (11) 99999-9999" required>
+                </div>
+            </div>
+            <!-- Campo para o nome da mãe -->
+            <div class="form-group">
+                <label for="nome_mae">Nome da Mãe</label>
+                <input type="text" id="nome_mae" name="nome_mae" maxlength="50" placeholder="Digite o nome da mãe" required>
+            </div>
+            <!-- Campo para o CEP -->
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" placeholder="00000-000" required>
+            </div>
+            <!-- Campo para o endereço (preenchido automaticamente) -->
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" disabled>
+            </div>
+            <!-- Campo para número e complemento do endereço -->
+            <div class="form-group">
+                <label for="numero">Número e Complemento</label>
+                <input type="text" id="numero" name="numero" maxlength="5" required>
+            </div>
+            <!-- Campo para o bairro (preenchido automaticamente) -->
+            <div class="form-group">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro" disabled>
+            </div>
+            <!-- Campo para o município (preenchido automaticamente) -->
+            <div class="form-group">
+                <label for="municipio">Cidade ou Município</label>
+                <input type="text" id="municipio" name="municipio" disabled>
+            </div>
+            <!-- Campo para o estado (UF) (preenchido automaticamente) -->
+            <div class="form-group">
+                <label for="uf">UF ou Estado</label>
+                <input type="text" id="uf" name="uf" disabled>
+            </div>
+            <!-- Campo para o e-mail -->
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+            </div>
+            <!-- Campo para selecionar a doença -->
+            <div class="form-group">
+                <label for="doenca">Doença</label>
+                <select id="doenca" name="doenca">
+                    <option value="Nefrite">Nefrite</option>
+                    <option value="Conjutivite">Conjutivite</option>
+                    <option value="Renite">Renite</option>
+                    <option value="Asma">Asma</option>
+                    <option value="Tendinite">Tendinite</option>
+                </select>
+            </div>
+            <!-- Botões de limpar e enviar o formulário -->
+            <div class="form-group button-container">
+                <button class="button-reset" type="reset">Limpar</button>
+                <button class="button-submit" type="submit">Enviar</button>
+            </div>
+        </form>
+        <!-- Seção de redes sociais e contato -->
+        <div class="social-media">
+            <h5>Contato</h5>
+            <div id="social-icons" class="social-icons">
+                <a href="https://github.com/malleficarum/projetos_em_frontend" title="Github"><i class="fa-solid fa-cat"></i></a>
+                <a href="mailto:laisaranda@gmail.com" title="E-mail"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-solid fa-face-smile"></i></a>
+                <br><br>
+                <p>@Grupo MAGO 2024</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
