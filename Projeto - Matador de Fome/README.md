@@ -5,4 +5,4 @@
   <ul><h5>Arquivos em Flutter com integração no Firebase em desenvolvimento.</h5></ul>
 
 <br></br>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/> <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="css"/> <img src="https://img.shields.io/badge/Javascript-0b5394?&style=for-the-badge&logo=javascript&logoColor=white" alt="css"/>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="flutter"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="android"/> 
