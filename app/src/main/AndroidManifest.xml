@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.matadordefome">
+
+    <!-- Permissões necessárias, adicione conforme necessário -->
+    <!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+
+    <!-- Definindo a versão mínima e máxima da API -->
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="34" />
+
+    <!-- Definindo a configuração da aplicação -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Matadordefome"
+        tools:targetApi="34">
+
+        <!-- Se não houver uma MainActivity, adicione a atividade inicial -->
+        <!-- Aqui estou assumindo que a primeira atividade é a LoginActivity -->
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Matadordefome"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+
+            <!-- Definindo a activity como a principal -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegisterActivity">
+        </activity>
+        <activity
+            android:name=".ProductListActivity">
+        </activity>
+        <activity
+            android:name=".CategoryActivity">
+        </activity>
+        <activity
+            android:name=".CartActivity">
+        </activity>
+        <activity
+            android:name=".PaymentActivity"
+            tools:ignore="DuplicateActivity">
+        </activity>
+
+    </application>
+
+</manifest>
