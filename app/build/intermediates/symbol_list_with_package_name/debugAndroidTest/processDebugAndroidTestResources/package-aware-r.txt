@@ -1,3 +1,0 @@
-com.example.matadordefome.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
