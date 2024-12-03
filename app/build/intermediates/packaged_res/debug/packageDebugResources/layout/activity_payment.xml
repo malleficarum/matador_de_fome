@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/paymentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resumo do Pedido"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/paymentRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Total: R$ 0,00"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- RadioGroup para seleção de métodos de pagamento -->
+    <RadioGroup
+        android:id="@+id/paymentMethodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/paymentCardRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cartão de Crédito ou Débito"
+            android:checked="true"/> <!-- Marcar o primeiro como selecionado por padrão -->
+
+        <RadioButton
+            android:id="@+id/paymentPixRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pix"/>
+
+        <RadioButton
+            android:id="@+id/paymentVoucherRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vale-Refeição"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/paymentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Pagamento"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
