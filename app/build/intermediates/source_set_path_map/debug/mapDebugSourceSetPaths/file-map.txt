@@ -1,0 +1,36 @@
+com.example.matadordefome.app-core-ktx-1.13.0-0 D:\Android\Gradle\caches\8.9\transforms\0573ac794eaf9fd04d497e3a4e21fc4d\transformed\core-ktx-1.13.0\res
+com.example.matadordefome.app-core-1.13.0-1 D:\Android\Gradle\caches\8.9\transforms\109906b8050c13b6ccca929d6f7027a0\transformed\core-1.13.0\res
+com.example.matadordefome.app-lifecycle-livedata-2.6.2-2 D:\Android\Gradle\caches\8.9\transforms\137fa2efc98b0e8c02c024f2f2beb34b\transformed\lifecycle-livedata-2.6.2\res
+com.example.matadordefome.app-recyclerview-1.3.2-3 D:\Android\Gradle\caches\8.9\transforms\25a4a496b40a5ae8f2e257b06f07823b\transformed\recyclerview-1.3.2\res
+com.example.matadordefome.app-lifecycle-viewmodel-savedstate-2.6.2-4 D:\Android\Gradle\caches\8.9\transforms\2f694467ae331d4713860207ce7874b2\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.matadordefome.app-annotation-experimental-1.4.0-5 D:\Android\Gradle\caches\8.9\transforms\32225d4bb9fe01e2b9f6456682326bcf\transformed\annotation-experimental-1.4.0\res
+com.example.matadordefome.app-cardview-1.0.0-6 D:\Android\Gradle\caches\8.9\transforms\3ae50b3f770cc9e1fbd4a3148e9c9402\transformed\cardview-1.0.0\res
+com.example.matadordefome.app-transition-1.5.0-7 D:\Android\Gradle\caches\8.9\transforms\3dc5206afe3480dcd3069826c5693c18\transformed\transition-1.5.0\res
+com.example.matadordefome.app-savedstate-1.2.1-8 D:\Android\Gradle\caches\8.9\transforms\412b0c8654e9cecdc3efed7a1ebf41dc\transformed\savedstate-1.2.1\res
+com.example.matadordefome.app-fragment-1.5.4-9 D:\Android\Gradle\caches\8.9\transforms\4aadb7494ff9366607e6d4f0ffdc4046\transformed\fragment-1.5.4\res
+com.example.matadordefome.app-viewpager2-1.1.0-beta02-10 D:\Android\Gradle\caches\8.9\transforms\4c82a2efb6df5c23bbfa351269a072a5\transformed\viewpager2-1.1.0-beta02\res
+com.example.matadordefome.app-glide-4.15.1-11 D:\Android\Gradle\caches\8.9\transforms\4efd9fdb45e7d03e439742e5edee4b4e\transformed\glide-4.15.1\res
+com.example.matadordefome.app-customview-poolingcontainer-1.0.0-12 D:\Android\Gradle\caches\8.9\transforms\5a7cef3f60ec2a7fd2e7ae6dc041f02e\transformed\customview-poolingcontainer-1.0.0\res
+com.example.matadordefome.app-appcompat-1.7.0-13 D:\Android\Gradle\caches\8.9\transforms\5cfd512e1fa54f2f59da4e89209eedf7\transformed\appcompat-1.7.0\res
+com.example.matadordefome.app-emoji2-views-helper-1.3.0-14 D:\Android\Gradle\caches\8.9\transforms\69f64a6d019c008f30469d076b902513\transformed\emoji2-views-helper-1.3.0\res
+com.example.matadordefome.app-lifecycle-livedata-core-2.6.2-15 D:\Android\Gradle\caches\8.9\transforms\6e95d244b6a76b55c89c5e7441a02238\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.matadordefome.app-lifecycle-runtime-2.6.2-16 D:\Android\Gradle\caches\8.9\transforms\720f977e5a22c527fdfa361d8823acfb\transformed\lifecycle-runtime-2.6.2\res
+com.example.matadordefome.app-constraintlayout-2.2.0-17 D:\Android\Gradle\caches\8.9\transforms\78ced7bec0e929d2b8149346eb725e08\transformed\constraintlayout-2.2.0\res
+com.example.matadordefome.app-appcompat-resources-1.7.0-18 D:\Android\Gradle\caches\8.9\transforms\8306885af1307bb8eea8990c20c4fdf6\transformed\appcompat-resources-1.7.0\res
+com.example.matadordefome.app-lifecycle-process-2.6.2-19 D:\Android\Gradle\caches\8.9\transforms\88bfea4a8bd4099a19dbb1b0484b37bc\transformed\lifecycle-process-2.6.2\res
+com.example.matadordefome.app-activity-1.8.0-20 D:\Android\Gradle\caches\8.9\transforms\985b3d946105b40817fb68db70a37b15\transformed\activity-1.8.0\res
+com.example.matadordefome.app-lifecycle-viewmodel-2.6.2-21 D:\Android\Gradle\caches\8.9\transforms\a67b4a4ddf1ad4477f746a8f97cc148f\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.matadordefome.app-material-1.12.0-22 D:\Android\Gradle\caches\8.9\transforms\ad7898c3eee58bf0d8370779242dcb46\transformed\material-1.12.0\res
+com.example.matadordefome.app-core-runtime-2.2.0-23 D:\Android\Gradle\caches\8.9\transforms\b641d5f03c872f089416e1de6c522a12\transformed\core-runtime-2.2.0\res
+com.example.matadordefome.app-profileinstaller-1.4.0-24 D:\Android\Gradle\caches\8.9\transforms\bd1e1fe3ee706d77cf54b3fdab17676d\transformed\profileinstaller-1.4.0\res
+com.example.matadordefome.app-coordinatorlayout-1.1.0-25 D:\Android\Gradle\caches\8.9\transforms\da182dbb996350948058319eb88b585a\transformed\coordinatorlayout-1.1.0\res
+com.example.matadordefome.app-startup-runtime-1.1.1-26 D:\Android\Gradle\caches\8.9\transforms\dad8902c9ecb4aced6084a096800eb67\transformed\startup-runtime-1.1.1\res
+com.example.matadordefome.app-emoji2-1.3.0-27 D:\Android\Gradle\caches\8.9\transforms\f2a553939ecb7d99fbafa4645b52005c\transformed\emoji2-1.3.0\res
+com.example.matadordefome.app-drawerlayout-1.1.1-28 D:\Android\Gradle\caches\8.9\transforms\fb0065bcd77b0dceda813b5ada32b45d\transformed\drawerlayout-1.1.1\res
+com.example.matadordefome.app-pngs-29 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\generated\res\pngs\debug
+com.example.matadordefome.app-resValues-30 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\generated\res\resValues\debug
+com.example.matadordefome.app-packageDebugResources-31 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.matadordefome.app-packageDebugResources-32 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.matadordefome.app-debug-33 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.matadordefome.app-debug-34 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\src\debug\res
+com.example.matadordefome.app-main-35 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\src\main\res

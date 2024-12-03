@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra -->
+    <item android:right="2dp" android:left="2dp" android:top="2dp" android:bottom="2dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#80000000"/> <!-- Cor da sombra -->
+            <corners android:radius="16dp"/>  <!-- Raio maior para bordas arredondadas -->
+        </shape>
+    </item>
+
+    <!-- Cor de fundo do botão (branco) -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#FFFFFF"/> <!-- Cor de fundo do botão -->
+            <corners android:radius="16dp"/> <!-- Raio de borda arredondada -->
+        </shape>
+    </item>
+</layer-list>

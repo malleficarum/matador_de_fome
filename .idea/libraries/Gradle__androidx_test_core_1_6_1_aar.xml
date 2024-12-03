@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test:core:1.6.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Gradle/caches/8.9/transforms/347ef89db054a2a3b175b160bb5956ec/transformed/core-1.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/caches/8.9/transforms/347ef89db054a2a3b175b160bb5956ec/transformed/core-1.6.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../Gradle/caches/8.9/transforms/347ef89db054a2a3b175b160bb5956ec/transformed/core-1.6.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/caches/modules-2/files-2.1/androidx.test/core/1.6.1/373d480f7ae91a32ac4ee1583709af21f319c951/core-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
