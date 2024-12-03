@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_cart_item.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\cart_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable-v24_activity_product_list.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable-v24\\activity_product_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_hamburguer.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_hamburguer.png"
+    },
+    {
+        "merged": "com.example.matadordefome.app-debug-33:/layout_activity_register.xml.flat",
+        "source": "com.example.matadordefome.app-main-35:/layout/activity_register.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\xml_backup_rules.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_matador.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_matador.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-pngs-29:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_category2.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_category2.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_button_background.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_activity_product_list.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\activity_product_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_activity_payment.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_activity_register.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_placeholder_image.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\placeholder_image.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_fritas.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_fritas.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_user.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_user.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_category3.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_category3.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_pizza.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_pizza.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_item_product.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_activity_category.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_hotdog.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_hotdog.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_category1.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_category1.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_milkshake.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_milkshake.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_cart.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_cart.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_refri.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_refri.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_pizza.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\pizza.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_activity_product_list.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_activity_login.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_circular_background.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\circular_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_search_bar_background.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\search_bar_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_tacos.png.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\tacos.png"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\layout_activity_cart.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.9\\com.example.matadordefome.app-main-35:\\drawable\\ic_launcher_background.xml"
+    }
+]

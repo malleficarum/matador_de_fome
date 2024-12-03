@@ -1,0 +1,5 @@
+com.example.matadordefome.test.app-core-1.6.1-0 D:\Android\Gradle\caches\8.9\transforms\347ef89db054a2a3b175b160bb5956ec\transformed\core-1.6.1\res
+com.example.matadordefome.test.app-androidTest-1 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\generated\res\resValues\androidTest\debug
+com.example.matadordefome.test.app-mergeDebugAndroidTestResources-2 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.matadordefome.test.app-mergeDebugAndroidTestResources-3 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.matadordefome.test.app-debugAndroidTest-4 D:\Android\Projeto - Matador de Fome\MatadorDeFome\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
